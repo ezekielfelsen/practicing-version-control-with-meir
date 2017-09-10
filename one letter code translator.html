@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+  <h3 align="center"> Enter the letter you need to be turned into code </h3>
+
+  <input id="myInput" type="text">
+  <br><br>
+
+  <button onclick="myFunction()">Try it</button>
+
+  <p id="demo"></p>
+
+  <script>
+    function myFunction() {
+      var letter = document.getElementById("myInput").value;
+      var text;
+
+
+      if (letter == "a") {
+        text = "51,";
+
+      } else if (letter === "b") {
+        text = "52,";
+
+      } else if (letter == "c") {
+        text = "53,";
+      } else if (letter === "d") {
+        text = "54,";
+      } else if (letter === "e") {
+        text = "55,";
+      } else if (letter === "f") {
+        text = "41,";
+      } else if (letter === "g") {
+        text = "42,";
+      } else if (letter === "h") {
+        text = "43,";
+      } else if (letter === "i") {
+        text = "44,";
+      } else if (letter === "j") {
+        text = "45,";
+      } else if (letter === "k") {
+        text = "53,";
+      } else if (letter === "l") {
+        text = "31,";
+      } else if (letter === "m") {
+        text = "32,";
+      } else if (letter === "n") {
+        text = "33,";
+      } else if (letter === "34") {
+        text = "o,";
+      } else if (letter === "p") {
+        text = "35,";
+      } else if (letter === "q") {
+        text = "21,";
+      } else if (letter === "r") {
+        text = "22,";
+      } else if (letter === "s") {
+        text = "23,";
+      } else if (letter === "t") {
+        text = "24,";
+      } else if (letter === "u") {
+        text = "25,";
+      } else if (letter === "v") {
+        text = "11,";
+      } else if (letter === "w") {
+        text = "12,";
+      } else if (letter === "x") {
+        text = "13,";
+      } else if (letter === "y") {
+        text = "14,";
+      } else if (letter === "z") {
+        text = "15,";
+
+
+      }
+      document.getElementById("demo").innerHTML = text;
+    }
+  </script>
+
+</body>
+
+</html>
